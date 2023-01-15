@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,38 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+  <div class="container">
+    <fieldset class="rating">
+      <legend class="rating__caption">Самочувствие</legend>
+      <div class="rating__group">
+        <input class="rating__star" type="radio" name="health" value="1" aria-label="ужасно" checked>
+        <input class="rating__star" type="radio" name="health" value="2" aria-label="сносно">
+        <input class="rating__star" type="radio" name="health" value="3" aria-label="нормально">
+        <input class="rating__star" type="radio" name="health" value="4" aria-label="хорошо">
+        <input class="rating__star" type="radio" name="health" value="5" aria-label="отлично">
+      </div>
+    </fieldset>
+    <fieldset class="rating">
+      <legend class="rating__caption">Настроение</legend>
+      <div class="rating__group">
+        <input class="rating__star" type="radio" name="mood" value="1" aria-label="ужасно">
+        <input class="rating__star" type="radio" name="mood" value="2" aria-label="сносно">
+        <input class="rating__star" type="radio" name="mood" value="3" aria-label="нормально" checked>
+        <input class="rating__star" type="radio" name="mood" value="4" aria-label="хорошо">
+        <input class="rating__star" type="radio" name="mood" value="5" aria-label="отлично">
+      </div>
+    </fieldset>
+    <fieldset class="rating">
+      <legend class="rating__caption">Вообще</legend>
+      <div class="rating__group">
+        <input class="rating__star" type="radio" name="general" value="1" aria-label="ужасно">
+        <input class="rating__star" type="radio" name="general" value="2" aria-label="сносно">
+        <input class="rating__star" type="radio" name="general" value="3" aria-label="нормально">
+        <input class="rating__star" type="radio" name="general" value="4" aria-label="хорошо">
+        <input class="rating__star" type="radio" name="general" value="5" aria-label="отлично" checked>
+      </div>
+    </fieldset>
+  </div>
 
   <script src="js/main.js"></script>
 </body>

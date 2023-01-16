@@ -57,7 +57,7 @@ img {
   position: relative;
   width: 10em;
   height: 2em;
-  background-image: url("../img/off.svg");
+  background-image: url("../img/icon-star-off.svg");
   background-size: 2em auto;
   background-repeat: repeat-x;
   font-size: inherit;
@@ -88,11 +88,11 @@ img {
 
 .rating__star:checked,
 .rating__star:hover {
-  background-image: url("../img/on.svg");
+  background-image: url("../img/icon-star-on.svg");
 }
 
 .rating__star:hover ~ .rating__star {
-  background-image: url("../img/off.svg");
+  background-image: url("../img/icon-star-off.svg");
 }
 
 

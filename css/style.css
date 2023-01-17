@@ -121,3 +121,106 @@ img {
   z-index: 1;
   width: 10em;
 }
+
+
+/* ----------========== CUSTOM-CHECKBOX ==========---------- */
+/* .option {
+  display: block;
+  margin-bottom: 0.25em;
+} */
+
+
+/* CHECK */
+/* .check {
+  padding-left: 1.2em;
+} */
+
+/* .check__input {
+  position: absolute;
+  appearance: none;
+} */
+
+/* .check__box {
+  margin-left: -1.2em;
+  position: absolute;
+  width: 1.3em;
+  height: 1.3em;
+  background-image: url("../img/off.svg");
+} */
+
+
+/* CHECKED  */
+/* .check__input:checked ~ .check__box {
+  background-image: url("../img/on.svg");
+} */
+
+/* FOCUS */
+/* .check__input:focus ~ .check__box {
+  background-image: url("../img/off-focused.svg");
+} */
+
+/* .check__input:checked:focus ~ .check__box {
+  background-image: url("../img/on-focused.svg");
+} */
+
+
+/* DISABLED */
+/* .check__input:disabled ~ .check__box {
+  background-image: url("../img/off-disabled.svg");
+} */
+
+/* .check__input:checked:disabled ~ .check__box {
+  background-image: url("../img/on-disabled.svg");
+} */
+
+
+/* CREATE-STILL-IN-CSS */
+.option {
+  display: block;
+  margin-bottom: 0.25em;
+}
+
+
+/* CHECK */
+.check {
+  padding-left: 1.2em;
+}
+
+.check__input {
+  position: absolute;
+  appearance: none;
+}
+
+.check__box {
+  position: absolute;
+  margin-top: 0.4em;
+  margin-left: -1em;
+  border-radius: 0.05em;
+  background-color: #fff;
+  width: 0.6em;
+  height: 0.6em;
+  box-shadow: 0 0 0 0.1em #4a90e2;
+}
+
+
+/* CHECKED  */
+.check__input:checked ~ .check__box {
+  background-color: #4a90e2;
+  background-image: url("../img/check.svg");
+}
+
+/* FOCUS */
+.check__input:focus ~ .check__box {
+  box-shadow: 0 0 0 0.1em #4a90e2,
+    0 0 0 0.2em #7ed321;
+}
+
+
+/* DISABLED */
+.check__input:disabled ~ .check__box {
+  box-shadow: 0 0 0 0.1em #9b9b9b;
+}
+
+.check__input:checked:disabled ~ .check__box {
+  background-color: #9b9b9b;
+}
